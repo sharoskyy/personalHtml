@@ -1,0 +1,115 @@
+body {
+    margin: 0;
+    background: #060e1b;
+    font-family: Roboto;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+.aboutMe {
+    display: inline-block;
+    margin: 20px;
+    margin-top: 185px;
+    position: relative;
+    left: 100px;
+}
+.nameAndtitle {
+    color: #fff;
+}
+.nameAndtitle h1 {
+    font-size: 2.25rem;
+    font-weight: bold;
+}
+.nameAndtitle p {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #a0aec0;
+}
+.aboutDesc p {
+    color: #718096;
+}
+.avatarMe {
+    width: 442.83px;
+    right: 5%;
+    float: right;
+    margin-top: 200px;
+}
+.avatarMe img {
+    width: 50%;
+    border-radius: 10px;
+}
+.aboutDesc {
+    width: 350px;
+    color: #fff;
+}
+[data-wenk]:hover {
+    overflow: visible;
+}
+[data-wenk] {
+    position: relative;
+}
+[data-wenk]:hover:after {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: translate(-50%,-10px);
+    transform: translate(-50%,-10px);
+}
+[data-wenk]:after {
+    position: absolute;
+    font-size: 13px;
+    border-radius: .4rem;
+    content: attr(data-wenk);
+    padding: 12.8px;
+    padding: .8rem;
+    background-color: hsla(0,0%,7%,.8);
+    -webkit-box-shadow: 0 0 14px rgba(0,0,0,.1);
+    box-shadow: 0 0 14px rgba(0,0,0,.1);
+    color: #fff;
+    line-height: 20px;
+    line-height: 1.25rem;
+    text-align: left;
+    z-index: 1;
+    pointer-events: none;
+    display: block;
+    visibility: hidden;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    bottom: 150%;
+    left: 30%;
+    -webkit-transform: translate(-50%,10px);
+    transform: translate(-50%,10px);
+    white-space: pre;
+    width: auto;
+    opacity: 0;
+    letter-spacing: 0;
+    font-family: Roboto;
+}
+.socialMedia i {
+    font-size: 30px;
+    margin: 10px;
+    position: relative;
+    right: 10px;
+}
+.projects {
+    margin: 110px;
+    padding-top: 80px;
+    color: #fff;
+}
+li {
+    list-style-type: none;
+    margin: 5px;
+    padding: 0;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+    background-color: #091222;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #030d17;
+    border-radius: 3px;
+}
